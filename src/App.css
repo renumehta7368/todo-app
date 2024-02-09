@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #430269;
+}
+
+.container {
+  display: flex;
+  height: 80vh;
+  border: 1px solid rgb(74, 6, 101);
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  box-shadow: 0 15px 25px#8d36c7;
+  border-radius: 25px;
+}
+
+
+.todoForm {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  
+}
+
+button {
+  border-color: rgb(46, 45, 45);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 0 5px;
+}
+button:hover{
+  color: #ffffff;
+  transform: translateY(-5px);
+background: rgb(46, 45, 45);
+}
+
+.allTodos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.singleTodo {
+  border-radius: 50px;
+  margin: 10px 0;
+  background-color:rgb(46, 45, 45); 
+  padding: 10px ;
+  display: flex;
+  width: 450px;
+  align-items: center;
+  box-shadow: 0px 20px 30px#8d36c7;
+}
+.todoText {
+  flex: 1;
+}
